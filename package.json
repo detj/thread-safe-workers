@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "bench": "node bench.js",
-    "test": "node --test --test-reporter spec"
+    "test": "node --test"
   },
   "keywords": [],
   "author": "",
