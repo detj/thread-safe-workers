@@ -29,3 +29,7 @@ This will create multiple `output-<n>.txt` files along with a final concatenated
 ## Results
 
 The combined `output.txt` should contain 5000 entries all having the same final value of **130**.
+
+## See also
+
+[deno-workers](https://github.com/detj/deno-workers)
