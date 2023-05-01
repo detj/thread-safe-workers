@@ -18,15 +18,13 @@ jobs:
       matrix:
         node-version: [16.x, 18.x]
         os: [ubuntu-latest, windows-latest, macos-latest]
-        architecture: [x64, arm64]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
     - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }} on ${{ matrix.os }} ${{ matrix.architecture }}
+    - name: Use Node.js ${{ matrix.node-version }} on ${{ matrix.os }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-        architecture: ${{ matrix.architecture }}
     - run: npm run bench
     - run: npm run test
