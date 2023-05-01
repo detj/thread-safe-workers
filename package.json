@@ -1,7 +1,7 @@
 {
   "name": "thread-safe-workers",
   "version": "1.0.0",
-  "description": "",
+  "description": "thread-safe node workers with mutex using Atomics & SharedArrayBuffers",
   "main": "index.js",
   "type": "module",
   "scripts": {
