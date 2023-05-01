@@ -6,14 +6,20 @@ A thread-safe implementation of nodejs [worker threads](https://nodejs.org/dist/
 
 Clone the repository and run
 
+### One time
+
+This will run the node process only once.
+
 ```sh
-node index
+npm start
 ```
 
-To run the benchmark, run
+### Multipe times
+
+To run the benchmark, run. Will invoke the single process multiple times, concurrently.
 
 ```sh
-./bench.sh
+npm bench
 ```
 
 This will create multiple `output-<n>.txt` files along with a final concatenated `output.txt` file.
