@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/detj/thread-safe-workers/actions/workflows/node.js.yml/badge.svg)](https://github.com/detj/thread-safe-workers/actions/workflows/node.js.yml)
+
 # thread safe workers
 
 A thread-safe implementation of nodejs [worker threads](https://nodejs.org/dist/latest-v18.x/docs/api/worker_threads.html#portpostmessagevalue-transferlist) with Mutex locking implemented using [Atomics](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Atomics) & [SharedArrayBuffer(s)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer).
